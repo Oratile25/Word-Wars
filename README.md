@@ -1,5 +1,5 @@
-"# Word-Wars"
-"## Word Wars Java Console Game"
+ <h1>Word-Wars</h1>
+<h2>Word Wars Java Console Game</h2>
 
 This is a simple console-based word game implemented in Java. The objective of the game is for players to take turns entering a word and gaining points based on the length of the word entered. The game also involves keeping track of the letters used in previous words to avoid repetition, and removing vowels from the entered word. Below is a brief guide on how to play the game.
 
