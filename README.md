@@ -1,9 +1,8 @@
- <h1>Word-Wars</h1>
-<h2>Word Wars Java Console Game</h2>
+<h1>Word Wars Java Console Game</h1>
 
 This is a simple console-based word game implemented in Java. The objective of the game is for players to take turns entering a word and gaining points based on the length of the word entered. The game also involves keeping track of the letters used in previous words to avoid repetition, and removing vowels from the entered word. Below is a brief guide on how to play the game.
 
-"## How to Play"
+<h2>How to Play</h2>
 
 Run the program in a Java console.
 You will be presented with a Game Menu. Enter "1" to start the game, or any other key to exit.
@@ -16,24 +15,25 @@ The game continues until a player enters the word "???".
 Once the game ends, the scores are displayed, and the option to play again is presented.
 Game Components
 
-"## The game is made up of the following components:"
+<h2>The game is made up of the following components:</h2>
+<ul>
+<li>alphabetList: A string containing all the letters of the alphabet.</li>
+<li>vowels: A string containing all the vowels.</li>
+<li>enteredWord: A string to hold the word entered by the current player.</li>
+<li>playersInput: A string to hold the player's input.</li>
+<li>usedLetters: A string to hold all the letters used in previous words.</li>
+<li>userInput: A string to hold the user's input.</li>
+<li>currentPlayer: A string representing the current player.</li>
+<li>playerOneName: A string representing the name of Player 1.</li>
+<li>playerTwoName: A string representing the name of Player 2.</li>
+<li>playerNumber: An integer representing the current player number.</li>
+<li>playerOneScore: An integer representing the score of Player 1.</li>
+<li>playerTwoScore: An integer representing the score of Player 2.</li>
+<li>playersAgree: A boolean value to indicate if both players agree on a word.</li>
+<li>scan: A Scanner object to receive input from the user.</li>
+</ul>
 
-alphabetList: A string containing all the letters of the alphabet.
-vowels: A string containing all the vowels.
-enteredWord: A string to hold the word entered by the current player.
-playersInput: A string to hold the player's input.
-usedLetters: A string to hold all the letters used in previous words.
-userInput: A string to hold the user's input.
-currentPlayer: A string representing the current player.
-playerOneName: A string representing the name of Player 1.
-playerTwoName: A string representing the name of Player 2.
-playerNumber: An integer representing the current player number.
-playerOneScore: An integer representing the score of Player 1.
-playerTwoScore: An integer representing the score of Player 2.
-playersAgree: A boolean value to indicate if both players agree on a word.
-scan: A Scanner object to receive input from the user.
-
-"## How the Game Works"
+<h2>How the Game Works</h2>
 
 The GameMenu method displays the game menu and prompts the user to select an option to start or exit the game.
 The StartGame method is called when the user selects "1" to start the game. The game continues until a player enters the word "???".
